@@ -1,0 +1,79 @@
+* {
+  font-family: cursive, sans-serif;
+}
+body {
+  background-color: white;
+}
+nav {
+  background-color: #416d19;
+  border-radius: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 50px;
+}
+li {
+  float: left;
+  font-size: 20px;
+  gap: 30px;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #ff5b22;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.custom-border {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  display: flex;
+}
+.img-profile {
+  width: 200px;
+  height: 200px;
+}
+.main-profile {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 80px;
+  display: flex;
+  margin-top: 50px;
+}
+#gambar {
+  width: 500px;
+  height: 400px;
+  float: left;
+  position: relative; /* atau absolute, fixed, atau sticky */
+  top: 50px; /* Jarak dari atas */
+  right: 80px;
+}
+#main-info {
+  margin-right: 50px;
+}
+h1 {
+  color: #ff5b22;
+}
+.content-profile {
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 80px;
+  height: 480px;
+  border-radius: 10px;
+  border: 10px solid #bfea7c;
+}
+.img-profile {
+  margin-left: 20px;
+}
